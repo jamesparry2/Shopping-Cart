@@ -12,7 +12,7 @@ Objectives:
  - Calculate Total - Done - Can be seen in the checkout page
  - Apply Discount Codes on Items - Done - Can be seen in the checkout page, and on the items 'I am your farther' and 'Kit Kat'
  
-Know Issues (Ran out of time):
+Known Issues (Ran out of time):
  - You need to manually remove the /checkout from the url to return the home page.
  - When adding multiple items that are the same, they should stack but instead it adds another instance of the item and when an instance is removed every instance with the same ID will be removed. 
  - When an order has been processed and is a success it should redirect back to the home page. 
