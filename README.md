@@ -5,7 +5,7 @@ To run:
  - NPM install will be required to fun the front end application
  - A full rebuild of the .NET Api will be required to run. With the API, it may change the local https host. If it does, it will need to be changed to run on port: 44358
  
-Objects:
+Objectives:
  - Add Items - Done - Can be seen on the main home page
  - Remove Items - Done - Can be seen in the drop down top right and the checkout page
  - Clear Items - Done - Can be seen in the checkout page
