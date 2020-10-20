@@ -16,3 +16,6 @@ Know Issues (Ran out of time):
  - You need to manual remove the /checkout from the url to return the home page
  - When adding multiple items that are the same, they should stack but they dont, and when removed an item with multiple instance with the same ID they are all removed. 
  - When an order has been processed and is a success it should redirect back to the home page. 
+ 
+Missing:
+- Unit and Intergration Tests
