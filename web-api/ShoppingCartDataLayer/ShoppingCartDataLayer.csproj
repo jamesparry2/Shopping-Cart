@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20201011121436_Initial.cs" />
+    <Compile Remove="Migrations\20201011122504_Seed-Data.cs" />
+    <Compile Remove="Migrations\20201011133758_Join-Objects.cs" />
+    <Compile Remove="Migrations\20201011134200_Revert2.cs" />
+    <Compile Remove="Migrations\20201011142801_Relationship.cs" />
+    <Compile Remove="Migrations\20201011142929_Relationship-2.cs" />
+    <Compile Remove="Migrations\20201011143019_Final Changes.cs" />
+    <Compile Remove="Migrations\20201011143113_Final.cs" />
+    <Compile Remove="Migrations\20201011143848_Relationship.cs" />
+    <Compile Remove="Migrations\20201011144047_Relationship.cs" />
+    <Compile Remove="Migrations\20201018122650_Price-Fields.cs" />
+    <Compile Remove="Migrations\20201018124115_AddRelationShips.cs" />
+    <Compile Remove="Migrations\20201018124211_Initial.cs" />
+    <Compile Remove="Migrations\20201018124456_Orders.cs" />
+    <Compile Remove="Migrations\20201018124537_Orders.cs" />
+    <Compile Remove="Migrations\20201018135650_Change-Types.cs" />
+    <Compile Remove="Migrations\20201018135729_Initial.cs" />
+    <Compile Remove="Migrations\20201020183900_UsedDiscount.cs" />
+    <Compile Remove="Migrations\20201020184024_Initial.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
